@@ -600,13 +600,12 @@ h6 {
   color: #444348;
 }
 
-.features {
+.features-ibg {
   padding: 11% 0 0 0;
   margin-bottom: 1.875rem;
-  background: url("../img/header/bg.png") 0 0/cover no-repeat;
 }
 @media (max-width: 47.99875em) {
-  .features {
+  .features-ibg {
     padding: 20% 0 0 0;
   }
 }
@@ -948,12 +947,11 @@ h6 {
   padding: 0 0 70% 0;
 }
 
-.testimonials {
-  background: url("../img/testimonials/bg.png") 0 0/cover no-repeat;
+.testimonials-ibg {
   padding: 64px 0;
 }
 @media (max-width: 47.99875em) {
-  .testimonials {
+  .testimonials-ibg {
     padding: 20px 0;
   }
 }
@@ -1298,6 +1296,12 @@ h6 {
   position: relative;
   top: 100px;
 }
+.contact-us__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .form-contact {
   background-color: #15141a;
   padding: 60px 66px 40px 85px;
